@@ -15,6 +15,9 @@
 		C01607AB1BDA544400D5F9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01607A91BDA544400D5F9EB /* LaunchScreen.storyboard */; };
 		C01607B61BDA544400D5F9EB /* scrollviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01607B51BDA544400D5F9EB /* scrollviewTests.m */; };
 		C01607C11BDA544400D5F9EB /* scrollviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01607C01BDA544400D5F9EB /* scrollviewUITests.m */; };
+		C01607CF1BDA565C00D5F9EB /* aa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C01607CE1BDA565C00D5F9EB /* aa.jpg */; settings = {ASSET_TAGS = (); }; };
+		C01607D21BDA621B00D5F9EB /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01607D11BDA621B00D5F9EB /* MainTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C01607D51BDA626500D5F9EB /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01607D41BDA626500D5F9EB /* MainTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		C01607BC1BDA544400D5F9EB /* scrollviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01607C01BDA544400D5F9EB /* scrollviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollviewUITests.m; sourceTree = "<group>"; };
 		C01607C21BDA544400D5F9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01607CE1BDA565C00D5F9EB /* aa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa.jpg; sourceTree = "<group>"; };
+		C01607D01BDA621B00D5F9EB /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		C01607D11BDA621B00D5F9EB /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		C01607D31BDA626500D5F9EB /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		C01607D41BDA626500D5F9EB /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		C016079A1BDA544400D5F9EB /* scrollview */ = {
 			isa = PBXGroup;
 			children = (
+				C01607CE1BDA565C00D5F9EB /* aa.jpg */,
 				C016079E1BDA544400D5F9EB /* AppDelegate.h */,
 				C016079F1BDA544400D5F9EB /* AppDelegate.m */,
 				C01607A11BDA544400D5F9EB /* ViewController.h */,
@@ -110,6 +119,10 @@
 				C01607A91BDA544400D5F9EB /* LaunchScreen.storyboard */,
 				C01607AC1BDA544400D5F9EB /* Info.plist */,
 				C016079B1BDA544400D5F9EB /* Supporting Files */,
+				C01607D01BDA621B00D5F9EB /* MainTableViewController.h */,
+				C01607D11BDA621B00D5F9EB /* MainTableViewController.m */,
+				C01607D31BDA626500D5F9EB /* MainTableViewCell.h */,
+				C01607D41BDA626500D5F9EB /* MainTableViewCell.m */,
 			);
 			path = scrollview;
 			sourceTree = "<group>";
@@ -246,6 +259,7 @@
 				C01607AB1BDA544400D5F9EB /* LaunchScreen.storyboard in Resources */,
 				C01607A81BDA544400D5F9EB /* Assets.xcassets in Resources */,
 				C01607A61BDA544400D5F9EB /* Main.storyboard in Resources */,
+				C01607CF1BDA565C00D5F9EB /* aa.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01607D21BDA621B00D5F9EB /* MainTableViewController.m in Sources */,
 				C01607A31BDA544400D5F9EB /* ViewController.m in Sources */,
 				C01607A01BDA544400D5F9EB /* AppDelegate.m in Sources */,
 				C016079D1BDA544400D5F9EB /* main.m in Sources */,
+				C01607D51BDA626500D5F9EB /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
